@@ -20,10 +20,11 @@ const CurriculumVitae = () => {
           <hr />
 
           <p>
-            I am a creative and responsible developer. I have a professional
-            attitude. I search in bibliographies and I research to solve doubts
-            and to solve complex problems. I like to investigate all
-            technologies I use. I have a good technical English.
+            I am creative and innovative developer capable of solving problems
+            that arise. I have a professional attitude. I search in
+            bibliographies and I research to solve doubts and to solve complex
+            problems. I like to investigate all technologies I use. I have a
+            good technical English.I love programming.
           </p>
         </section>
         <section className="contact-info part">
@@ -32,8 +33,23 @@ const CurriculumVitae = () => {
           <p>Direction: Holguín ,Cuba</p>
           <p>Mobile: +53 58595831</p>
           <p>Email: mario.sergdc@gmail.com</p>
-          <p>LinkedIn: linkedin.com/in/mario-domínguez-consuegra-460609248</p>
-          <p>GitHub: mariosergdc</p>
+          <p>
+            LinkedIn:
+            <a
+              href="https:linkedin.com/in/mario-domínguez-consuegra-460609248"
+              target="_blank"
+            >
+              {' '}
+              mario-domínguez-consuegra-460609248
+            </a>
+          </p>
+          <p>
+            GitHub:{' '}
+            <a href="https://github.com/mariosergdc" target="_blank">
+              {' '}
+              mariosergdc
+            </a>
+          </p>
         </section>
         <section className=" part">
           <h2>Languages</h2>
