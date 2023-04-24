@@ -36,8 +36,9 @@ const CurriculumVitae = () => {
           <p>
             LinkedIn:
             <a
-              href="https:linkedin.com/in/mario-domínguez-consuegra-460609248"
+              href="https://linkedin.com/in/mario-domínguez-consuegra-460609248"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {' '}
               mario-domínguez-consuegra-460609248
@@ -45,7 +46,11 @@ const CurriculumVitae = () => {
           </p>
           <p>
             GitHub:{' '}
-            <a href="https://github.com/mariosergdc" target="_blank">
+            <a
+              href="https://github.com/mariosergdc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {' '}
               mariosergdc
             </a>
