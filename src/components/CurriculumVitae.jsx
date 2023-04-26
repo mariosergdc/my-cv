@@ -10,8 +10,8 @@ const CurriculumVitae = () => {
           <img className="cv-img" src={porfilePic} alt="Foto" />
         </div>
         <div>
-          <h2 style={{ fontSize: '2rem' }}>Mario Sergio Domínguez Consuegra</h2>
-          <h1 style={{ fontSize: '3rem' }}>Front-End Developer</h1>
+          <h2 className="my-name">Mario Sergio Domínguez Consuegra</h2>
+          <h1 className="my-porfile">Front-End Developer</h1>
         </div>
       </div>
       <div className="cv-izq cv-container">
